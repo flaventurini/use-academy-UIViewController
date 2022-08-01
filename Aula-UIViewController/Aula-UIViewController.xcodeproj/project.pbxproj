@@ -17,6 +17,7 @@
 		6EDF02842897741700E6A0C3 /* Story2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF02832897741700E6A0C3 /* Story2ViewController.swift */; };
 		6EDF02882897749200E6A0C3 /* XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF02862897749200E6A0C3 /* XibViewController.swift */; };
 		6EDF02892897749200E6A0C3 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDF02872897749200E6A0C3 /* XibViewController.xib */; };
+		6EDF028C2897790200E6A0C3 /* AloneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF028B2897790200E6A0C3 /* AloneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6EDF02832897741700E6A0C3 /* Story2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story2ViewController.swift; sourceTree = "<group>"; };
 		6EDF02862897749200E6A0C3 /* XibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibViewController.swift; sourceTree = "<group>"; };
 		6EDF02872897749200E6A0C3 /* XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
+		6EDF028B2897790200E6A0C3 /* AloneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		6EDF02692896D17900E6A0C3 /* Aula-UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6EDF028A2897789800E6A0C3 /* ViewCode */,
 				6EDF02852897746000E6A0C3 /* XIB */,
 				6EDF027E2896D48D00E6A0C3 /* Storyboard */,
 				6EDF026A2896D17900E6A0C3 /* AppDelegate.swift */,
@@ -93,6 +96,14 @@
 				6EDF02872897749200E6A0C3 /* XibViewController.xib */,
 			);
 			path = XIB;
+			sourceTree = "<group>";
+		};
+		6EDF028A2897789800E6A0C3 /* ViewCode */ = {
+			isa = PBXGroup;
+			children = (
+				6EDF028B2897790200E6A0C3 /* AloneViewController.swift */,
+			);
+			path = ViewCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 			files = (
 				6EDF02842897741700E6A0C3 /* Story2ViewController.swift in Sources */,
 				6EDF02822896D5C100E6A0C3 /* StoryViewController.swift in Sources */,
+				6EDF028C2897790200E6A0C3 /* AloneViewController.swift in Sources */,
 				6EDF02882897749200E6A0C3 /* XibViewController.swift in Sources */,
 				6EDF026F2896D17900E6A0C3 /* ViewController.swift in Sources */,
 				6EDF026B2896D17900E6A0C3 /* AppDelegate.swift in Sources */,
