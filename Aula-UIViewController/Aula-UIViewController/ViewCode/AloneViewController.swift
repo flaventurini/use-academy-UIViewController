@@ -41,5 +41,17 @@ class AloneViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         print("viewDidAppear - AloneViewController")
+        let xib2ViewController = Xib2ViewController()
+        self.present(xib2ViewController, animated: true)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("viewWillDisappear - AloneViewController")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("viewDidDisappear - AloneViewController")
     }
 }

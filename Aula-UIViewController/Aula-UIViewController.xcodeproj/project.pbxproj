@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EBD8C982899A660009B470F /* Xib2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBD8C962899A660009B470F /* Xib2ViewController.swift */; };
+		6EBD8C992899A660009B470F /* Xib2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBD8C972899A660009B470F /* Xib2ViewController.xib */; };
 		6EDF026B2896D17900E6A0C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF026A2896D17900E6A0C3 /* AppDelegate.swift */; };
 		6EDF026F2896D17900E6A0C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF026E2896D17900E6A0C3 /* ViewController.swift */; };
 		6EDF02722896D17900E6A0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDF02702896D17900E6A0C3 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6EBD8C962899A660009B470F /* Xib2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xib2ViewController.swift; sourceTree = "<group>"; };
+		6EBD8C972899A660009B470F /* Xib2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Xib2ViewController.xib; sourceTree = "<group>"; };
 		6EDF02672896D17900E6A0C3 /* Aula-UIViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aula-UIViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDF026A2896D17900E6A0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EDF026E2896D17900E6A0C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 			children = (
 				6EDF02862897749200E6A0C3 /* XibViewController.swift */,
 				6EDF02872897749200E6A0C3 /* XibViewController.xib */,
+				6EBD8C962899A660009B470F /* Xib2ViewController.swift */,
+				6EBD8C972899A660009B470F /* Xib2ViewController.xib */,
 			);
 			path = XIB;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EDF02892897749200E6A0C3 /* XibViewController.xib in Resources */,
+				6EBD8C992899A660009B470F /* Xib2ViewController.xib in Resources */,
 				6EDF02772896D17F00E6A0C3 /* LaunchScreen.storyboard in Resources */,
 				6EDF02802896D4EC00E6A0C3 /* MyStoryboard.storyboard in Resources */,
 				6EDF02742896D17F00E6A0C3 /* Assets.xcassets in Resources */,
@@ -179,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBD8C982899A660009B470F /* Xib2ViewController.swift in Sources */,
 				6EDF02842897741700E6A0C3 /* Story2ViewController.swift in Sources */,
 				6EDF02822896D5C100E6A0C3 /* StoryViewController.swift in Sources */,
 				6EDF028C2897790200E6A0C3 /* AloneViewController.swift in Sources */,
