@@ -14,9 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        let xibViewController = XibViewController()
+//        let xibViewController = XibViewController()
+        let aloneViewController = AloneViewController()
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = xibViewController
+        window?.rootViewController = aloneViewController
         window?.makeKeyAndVisible()
         
         return true
