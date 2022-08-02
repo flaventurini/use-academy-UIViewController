@@ -32,4 +32,8 @@ class Xib2ViewController: UIViewController {
         super.viewDidDisappear(animated)
         print("viewDidDisappear - Xib2ViewController")
     }
+    
+    deinit {
+        print("deinit - Xib2ViewController")
+    }
 }
