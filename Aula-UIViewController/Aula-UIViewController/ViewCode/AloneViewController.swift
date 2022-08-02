@@ -12,4 +12,8 @@ class AloneViewController: UIViewController {
         let view = UIView()
         return view
     }()
+    
+    override func loadView() {
+        view = contentView
+    }
 }
