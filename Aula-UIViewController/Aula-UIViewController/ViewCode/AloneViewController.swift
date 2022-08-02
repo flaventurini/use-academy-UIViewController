@@ -14,11 +14,32 @@ class AloneViewController: UIViewController {
         return view
     }()
     
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        print("init - AloneViewController")
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func loadView() {
         view = contentView
+        print("loadView - AloneViewController")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("viewDidLoad - AloneViewController")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear - AloneViewController")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear - AloneViewController")
     }
 }
